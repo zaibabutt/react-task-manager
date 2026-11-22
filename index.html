@@ -649,26 +649,143 @@ footer a {
 <div class="section">
     <h2>What Our Clients Say</h2>
 
-    <div class="testi">
-        <div class="tcard">
-            ⭐⭐⭐⭐⭐
-            <p>"MUZEX delivered our website beyond expectations. Professional, fast, and creative team. Highly recommended!"</p>
-            <b>Sarah Johnson - CEO, BrightCorp</b>
+   
+<style>
+/* What We Believe In Section */
+.beliefs-section {
+    padding: 70px 20px;
+    background: #f8f8ff;
+    text-align: center;
+}
+
+.beliefs-section h2 {
+    font-size: 32px;
+    color: #6b00c9;
+    margin-bottom: 12px;
+}
+
+.beliefs-section .beliefs-subtitle {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.beliefs-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+}
+
+.belief-card {
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(80, 0, 120, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.belief-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 25px rgba(80, 0, 120, 0.15);
+}
+
+.belief-card.pink {
+    background: #ffe6f5;
+}
+
+.belief-card.purple {
+    background: #e9dcff;
+}
+
+.belief-icon {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.belief-card h3 {
+    color: #5700a8;
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.belief-card p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .beliefs-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 550px) {
+    .beliefs-section {
+        padding: 50px 15px;
+    }
+
+    .beliefs-section h2 {
+        font-size: 26px;
+    }
+
+    .beliefs-container {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
+<section class="beliefs-section" id="beliefs">
+    <h2>What We Believe In</h2>
+
+    <p class="beliefs-subtitle">
+        The values that guide everything we do at MUZEX TECHNOLOGIES.
+    </p>
+
+    <div class="beliefs-container">
+
+        <div class="belief-card pink">
+            <div class="belief-icon">💡</div>
+            <h3>Quality First</h3>
+            <p>
+                We focus on delivering quality work with attention
+                to detail and a commitment to excellence.
+            </p>
         </div>
 
-        <div class="tcard">
-            ⭐⭐⭐⭐⭐
-            <p>"Their mobile app development was smooth and on time. Excellent communication and support throughout."</p>
-            <b>Ahmed Khan - Founder, Finova</b>
+        <div class="belief-card purple">
+            <div class="belief-icon">🤝</div>
+            <h3>Client Satisfaction</h3>
+            <p>
+                We value our clients' goals and aim to create
+                solutions that meet their needs.
+            </p>
         </div>
 
-        <div class="tcard">
-            ⭐⭐⭐⭐⭐
-            <p>"Amazing logo and branding! They truly understand design and brand identity."</p>
-            <b>Emily Davis - Marketing Manager, StudioX</b>
+        <div class="belief-card pink">
+            <div class="belief-icon">🚀</div>
+            <h3>Innovation</h3>
+            <p>
+                We believe in creative thinking and modern
+                approaches to digital solutions.
+            </p>
         </div>
+
+        <div class="belief-card purple">
+            <div class="belief-icon">⭐</div>
+            <h3>Trust & Transparency</h3>
+            <p>
+                We value honest communication and clear
+                understanding throughout every project.
+            </p>
+        </div>
+
     </div>
-</div>
+</section>
+ 
 
 <!-- PLACE YOUR ORDER -->
 <div class="order-section" id="order">
